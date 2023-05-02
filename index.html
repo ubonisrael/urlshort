@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+
+    <title>Frontend Mentor | Shortly URL shortening API Challenge</title>
+  </head>
+  <body>
+    <header class="header">
+      <img src="./images/logo.svg" alt="logo" />
+      <button class="toggle-btn"><i class="fa fa-solid fa-bars"></i></button>
+      <nav class="navigation-container">
+        <ul class="navigation-menu">
+          <li>features</li>
+          <li>pricing</li>
+          <li>resources</li>
+        </ul>
+        <div class="underline"></div>
+        <div class="login-btn-container">
+          <button class="login-btn">login</button>
+          <button class="sign-up-btn">sign up</button>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="introduction">
+        <img
+          src="./images/illustration-working.svg"
+          alt="illustration-working"
+        />
+        <article class="introduction_info">
+          <h1>More than just shorter links</h1>
+          <p>
+            Build your brand’s recognition and get detailed insights on how your
+            links are performing.
+          </p>
+          <button>get started</button>
+        </article>
+      </section>
+      <section class="additional_details">
+        <div class="shorten-form">
+          <div class="background"></div>
+          <form novalidate>
+            <label for="shorten-link">
+              <input
+                type="text"
+                name="shorten-link"
+                id="shorten-link"
+                placeholder="Shorten a link here..."
+                value=""
+              />
+              <span class="error"></span>
+            </label>
+            <button class="submit-link" type="submit">shorten it</button>
+          </form>
+        </div>
+        <div class="shortened-links_container">
+          <!-- <div class="shortened-links_item">
+            <p>dksfhdkfhk</p>
+            <div class="underline"></div>
+            <div class="shortened-links">
+              <p>fdjfhd</p>
+              <button class="copy-btn">Copy</button>
+            </div>
+          </div>
+          <div class="shortened-links_item">
+            <p>dksfhdkfhk</p>
+            <div class="underline"></div>
+            <div class="shortened-links">
+              <p>fdjfhd</p>
+              <button>Copy</button>
+            </div>
+          </div> -->
+        </div>
+        <article class="additional_details-header">
+          <h2>Advanced Statistics</h2>
+          <p>
+            Track how your links are performing across the web with our advanced
+            statistics dashboard.
+          </p>
+        </article>
+        <section class="additional_details-info">
+          <div class="straight-line"></div>
+          <article class="brand-recognition">
+            <div class="additional_details-info-img">
+              <img
+                src="./images/icon-brand-recognition.svg"
+                alt="icon-brand-recognition"
+              />
+            </div>
+            <h2>Brand Recognition</h2>
+            <p>
+              Boost your brand recognition with each click. Generic links don’t
+              mean a thing. Branded links help instil confidence in your
+              content.
+            </p>
+          </article>
+          <article class="detailed-records">
+            <div class="additional_details-info-img">
+              <img
+                src="./images/icon-detailed-records.svg"
+                alt="icon-detailed-records"
+              />
+            </div>
+            <h2>Detailed Records</h2>
+            <p>
+              Gain insights into who is clicking your links. Knowing when and
+              where people engage with your content helps inform better
+              decisions.
+            </p>
+          </article>
+          <article class="fully-customizable">
+            <div class="additional_details-info-img">
+              <img
+                src="./images/icon-fully-customizable.svg"
+                alt="icon-fully-customizable"
+              />
+            </div>
+            <h2>Fully Customizable</h2>
+            <p>
+              Improve brand awareness and content discoverability through
+              customizable links, supercharging audience engagement.
+            </p>
+          </article>
+        </section>
+      </section>
+      <section class="boost-links">
+        <div class="background"></div>
+        <h2>Boost your links today</h2>
+        <button>Get Started</button>
+      </section>
+    </main>
+    <footer>
+      <img src="./images/logo.svg" alt="logo" class="logo" />
+      <section>
+        <div>
+          <h3>Features</h3>
+          <ul>
+            <li>Link Shortening</li>
+            <li>Branded Links</li>
+            <li>Analytics</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Resources</h3>
+          <ul>
+            <li>Blog</li>
+            <li>Developers</li>
+            <li>Support</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Company</h3>
+          <ul>
+            <li>About</li>
+            <li>Our Team</li>
+            <li>Careers</li>
+            <li>Contact</li>
+          </ul>
+        </div>
+        <div class="social-icons">
+          <div>
+            <img src="./images/icon-facebook.svg" alt="icon-facebook" />
+          </div>
+          <div><img src="./images/icon-twitter.svg" alt="icon-twitter" /></div>
+          <div>
+            <img src="./images/icon-pinterest.svg" alt="icon-pinterest" />
+          </div>
+          <div>
+            <img src="./images/icon-instagram.svg" alt="icon-instagram" />
+          </div>
+        </div>
+      </section>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
